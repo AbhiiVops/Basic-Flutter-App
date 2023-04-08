@@ -9,10 +9,7 @@ void main() => runApp(MaterialApp(
       backgroundColor: Colors.red[600],
     ),
     body : Center(
-      child: Image(
-      //  image: NetworkImage('https://images.unsplash.com/photo-1567026392301-672e510f3369?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Zmx1dHRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60'),
-        image: AssetImage('assets/doraemon.jpg')
-      ),
+      child: Image.network('https://images.unsplash.com/photo-1621052093608-a12172fcb80f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9yYWVtb258ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60')
     ),
     floatingActionButton: FloatingActionButton(
       onPressed: () {  },
